@@ -40,8 +40,8 @@ Inspected the page source (Ctrl+U) and found commented-out content:
 ```
 
 Also found these working links:
-    about_us.html
-    more_sekrits/index.html
+    - about_us.html
+    - more_sekrits/index.html
 
 ![](./images/image-1.png)
 
@@ -69,7 +69,7 @@ In the source page :
 
 ![alt text](images/image-4.png)
 
-While inspecting the HTML source of the http://sekritskwerl.com/more_sekrits/index.html page, I found two key <img> tags inside a <p> tag:
+While inspecting the HTML source of the http://sekritskwerl.com/more_sekrits/index.html page, I found two key "<img>" tags inside a "<p>" tag:
 
 The first image, RangerUpSekrit.gif, was openly included on the page and viewable directly.
  I saved this GIF and analyzed it using tools like binwalk and steghide, although steghide didn’t support the format.
